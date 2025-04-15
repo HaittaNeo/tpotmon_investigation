@@ -1,2 +1,1 @@
-# tpotmon_investigation
-A thorough static and dynamic security analysis of the Tpotmon website and card generator. This repo documents the investigation into potential crypto-related activity or Web3 integrations, confirming the platform's behavior is strictly frontend-based and non-crypto.
+An independent investigation into the viral TPOTMON card generator site. This repo documents technical findings about its AI usage, crypto affiliations, data behavior, and code structure — aimed at clarifying community concerns around privacy, blockchain, and creator intent.
