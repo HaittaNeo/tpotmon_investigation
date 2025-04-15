@@ -58,7 +58,8 @@ We examined the **entire source code**, both **frontend and backend**, performed
 - Confirmed via dev stream using ChatGPT to craft card data
 - No frontend `fetch()` to OpenAI, but AI generation is implied from:
 
-![ChatGPT Sidebar]([assets/chatgpt_sidebar/chatgpt_sidebar.png](https://github.com/HaittaNeo/tpotmon_investigation/blob/main/images/solana.png)](https://github.com/HaittaNeo/tpotmon_investigation/blob/main/images/solana.png))
+![ChatGPT Sidebar](https://github.com/HaittaNeo/tpotmon_investigation/blob/main/images/solana.png)
+
 
 **Visual Gags (not NFTs):**
 - Images like `drama.png`, `thirst.png`, `roast.png` found in `/public/types`
