@@ -7,7 +7,7 @@
 ## 🕵️ Overview
 This investigation was conducted to validate or refute community concerns regarding the website [tpotmon.com](https://tpotmon.com) and its possible association with cryptocurrency or blockchain activity, unauthorized data harvesting, and AI-generated content.
 
-We examined the **entire source code**, both **frontend and backend**, performed **network traffic interception**, and analyzed **social proof** of potential affiliations. This repository documents each method and all findings with clarity and neutrality.
+I examined the **entire source code**, both **frontend and backend**, performed **network traffic interception**, and analyzed **social proof** of potential affiliations. This repository documents each method and all findings with clarity and neutrality.
 
 ---
 
@@ -107,27 +107,65 @@ curl -x http://127.0.0.1:8084 https://tpotmon.com --insecure -v
 
 ## 💰 Cryptocurrency Link
 
-### Public Token Listing:
-- Token: [$TPOTMON on Solana](https://pump.fun/coin/GngkvJ21n9AJwYPRB7GPwEhs9nxqfExZVwQn4ppYpump)
-- Minted via [pump.fun](https://pump.fun)
-- Currently listed with holders and volume
+### 🎯 Public Token Listing
+- **Token:** [$TPOTMON on Solana](https://pump.fun/coin/GngkvJ21n9AJwYPRB7GPwEhs9nxqfExZVwQn4ppYpump)
+- **Platform:** [pump.fun](https://pump.fun)
+- **Token Address:** `GngkvJ21n9AJwYPRB7GPwEhs9nxqfExZVwQn4ppYpump`
+- **Decimals:** 6
+- **First Mint:** April 12, 2025 @ 22:52 UTC
+- **Current Stats (at time of writing):**
+  - Market Cap: ~$39,960.43
+  - Holders: 371
+  - Volume: Active daily
+- Token classified as a **meme coin**, typical of pump.fun trends
 
-### Developer Ties:
-- Terminal shown on stream: `kion@McWeebies`
-- ChatGPT topics include “Making Meme Token Solana”
+![Pump.fun Token](https://github.com/HaittaNeo/tpotmon_investigation/blob/main/images/pumpfun.png)
 
-![Dev ID Match](https://user-images.githubusercontent.com/your-image-id/kion-terminal.png)
+---
 
-⚠️ Developer’s own environment + project timeline show strong correlation to token origin.
+### 🧠 Developer Ties & Live Stream Evidence
+
+Multiple **cross-referenced elements** show that the creator of tpotmon.com is very likely the **creator of the $TPOTMON token**:
+
+| Evidence | Description |
+|---------|-------------|
+| 🖥️ Terminal Screenshot | Live stream footage shows the dev terminal as `kion@McWeebies` |
+| 🧠 ChatGPT past conversations | During a coding stream you can see in the sidebar of ChatGPT it includes phrases like “Making meme token on Solana” |
+| 🔁 Timing | Token creation occurred **in parallel** with the public launch of the website |
+
+---
+
+### 🧩 Is the Token Required for the Site?
+
+No. The site works **independently** of the token:
+
+- There is **no wallet login**
+- No minting, staking, or blockchain connection
+- No `web3.js`, `ethers.js`, or RPC traffic detected
+
+However — the **viral card generation** drives **brand awareness**, which **increases interest in the token**. The pattern matches other meme token launches:
+
+- Viral "game" → social buzz → token speculation
+- Token exists **outside the site** but is clearly **influenced by its popularity**
+
+This indirect relationship is **strategic**, even if not embedded in code.
+
+---
+
+### 🛑 Key Contradiction
+
+Despite this clear connection, the site prominently states:
+
+> “This project IS NOT ASSOCIATED with any crypto projects.”
+
+That claim is misleading. While technically the card generator doesn’t use crypto — the **developer does**, and the **token name and timing are no coincidence**.
+
 
 ---
 
 ## 📢 Community Concerns
 
 **Most cited issues from VTubers & artists:**
-
-![Concern Example](https://user-images.githubusercontent.com/your-image-id/concern1.png)
-![Concern Example](https://user-images.githubusercontent.com/your-image-id/concern2.png)
 
 | Concern | Status | Explanation |
 |--------|--------|-------------|
@@ -148,7 +186,7 @@ After reviewing:
 - ✅ Live dev behavior and ChatGPT logs
 - ✅ Public token metadata and chain state
 
-We conclude:
+I conclude:
 
 ### ✅ Technically Safe
 - No wallet access, no Web3 injection
@@ -164,20 +202,9 @@ We conclude:
 
 ---
 
-## 📸 Notable Screenshots
-
-| Context | Image |
-|--------|-------|
-| ChatGPT session | ![ChatGPT Sidebar](https://user-images.githubusercontent.com/your-image-id/chatgpt-sidebar.png) |
-| Dev terminal ("kion@McWeebies") | ![Dev Terminal](https://user-images.githubusercontent.com/your-image-id/kion-terminal.png) |
-| Token planning chat | ![AI Token Planning](https://user-images.githubusercontent.com/your-image-id/ai-token-chat.png) |
-
----
-
 ## 🛡️ Recommendations
 - 🚫 Don’t connect wallets or send crypto
 - ✅ Cards are safe if you’re comfortable with public data and LLM use
-- 🧠 Share the truth and let people decide
 
 ## 🧾 Credits
 Investigation by **@HaittaNeo**
